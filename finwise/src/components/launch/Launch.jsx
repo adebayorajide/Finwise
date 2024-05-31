@@ -18,6 +18,9 @@ const Launch = () => {
       </div>
       <Login />
       <Signup />
+      <div className="forgot_password">
+        <a href="">Forgot Password?</a>
+      </div>
     </div>
   );
 };

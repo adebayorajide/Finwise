@@ -12,6 +12,26 @@
 }
 
 .launch_text {
-    color: #000;
-    font-size: 30px;
+    color: #00D09E;
+    font-size: 52.14px;
+    font-weight: 600;
+    line-height: 57.36px;
+    letter-spacing: 6px;
+    text-align: center;
 }
+
+.launch_welcome_text {
+    margin-top: 20px;
+}
+
+.forgot_password {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.forgot_password a {
+    text-decoration: none;
+    color: #000;
+}
+

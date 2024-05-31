@@ -8,17 +8,26 @@ text-rendering: optimizeLegibility;
 }
 
 .login_button {
-    border: 1px solid #00D09E;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 15px;
+    border-radius: 40px;
+    background-color: #00D09E;
+    padding: 1rem 8rem;
     align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 60px;
+
 }
 
 .signup_button {
-    border: 1px solid #DFF7E2;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 15px;
+    border-radius: 40px;
+    background-color: #DFF7E2;
+    padding: 1rem 8rem;
     align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 10px;
 }
