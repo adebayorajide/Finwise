@@ -9,6 +9,7 @@
 
 .launch_logo {
     color: #00D09E;
+    margin-top: 8rem;
 }
 
 .launch_text {
@@ -16,7 +17,7 @@
     font-size: 52.14px;
     font-weight: 600;
     line-height: 57.36px;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     text-align: center;
 }
 

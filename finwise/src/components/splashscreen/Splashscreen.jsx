@@ -1,5 +1,5 @@
 import './splashscreen.css';
-import launchLogo from '../../assets/chart.png'
+import launchLogo from '../../assets/Vector.png'
 
 const Splashscreen = () => {
   return (

@@ -1,4 +1,4 @@
-import launchLogo from "../../assets/chart.png";
+import launchLogo from "../../assets/Vector2.png";
 import "./launch.css";
 import Login from "../Login";
 import Signup from "../Signup";
