@@ -1,0 +1,22 @@
+.splash {
+    background-color:#00D09E;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash_logo {
+}
+
+.splash_text {
+    color: #fff;
+    font-size: 52.14px;
+    font-weight: 600;
+    line-height: 57.36px;
+    letter-spacing: 6px;
+    text-align: center;
+
+}

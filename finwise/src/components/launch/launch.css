@@ -1,0 +1,17 @@
+.launch {
+    background: #F1FFF3;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.launch_logo {
+    color: #00D09E;
+}
+
+.launch_text {
+    color: #000;
+    font-size: 30px;
+}
