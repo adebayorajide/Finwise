@@ -1,7 +1,7 @@
 import launchLogo from "../../assets/Vector2.png";
 import "./launch.css";
-import Login from "../Login";
-import Signup from "../Signup";
+import Loginbutton from "../../constants/Loginbutton";
+import Signupbutton from "../../constants/Signupbutton";
 
 const Launch = () => {
   return (
@@ -16,8 +16,8 @@ const Launch = () => {
       <div className="launch_welcome_text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.{" "}
       </div>
-      <Login />
-      <Signup />
+      <Loginbutton />
+      <Signupbutton />
       <div className="forgot_password">
         <a href="">Forgot Password?</a>
       </div>

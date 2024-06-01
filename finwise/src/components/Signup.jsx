@@ -1,8 +1,8 @@
-import '../index.css'
+import './style.css'
 
 const Signup = () => {
   return (
-    <div className='signup_button'>Sign Up</div>
+    <div>Signup</div>
   )
 }
 
