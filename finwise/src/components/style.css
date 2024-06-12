@@ -1,4 +1,4 @@
-.login_container1 {
+.login_container1{
     background-color: #00D09E;
     height: 100%;
     width: auto;
@@ -32,32 +32,44 @@
     align-items: center;
 }
 
-.user_email {
-    margin-top: 5rem;
-}
+/* .fullname, .email { */
+    /* margin: 5rem 5rem 5rem 0; */
+/* } */
+/* .email{ */
+    /* margin: 5rem 5rem 5rem 0; */
+/* } */
+/* .mobile_number, .user_email { */
+    /* margin: 0 5rem 5rem 5rem; */
+/* } */
 
-.user_email_text {
+.user_email_text, .fullname_text, .mobile_number_text, .user_email_text {
     font-size: 20px;
     font-weight: 500;
     line-height: 22.5px;
     margin-bottom: 10px;
 }
 
-.user_email_input {
-    border: 1px solid #DFF7E2;
-    border-radius: 18px;
-    width: 40rem;
-    height: 41px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 14px;
-    text-align: ;
-    background-color: #DFF7E2;
-}
+/* .user_email_input { */
+    /* border: 1px solid #DFF7E2; */
+    /* border-radius: 18px; */
+    /* width: 40rem; */
+    /* height: 41px; */
+    /* font-size: 16px; */
+    /* font-weight: 400; */
+    /* line-height: 14px; */
+    /* background-color: #DFF7E2; */
+/* } */
 
-.password {
-    margin-top: 2rem;
-}
+/* .fullname_input, .user_email_input2, .mobile_number_input, .user_email_input { */
+    /* border: 1px solid #DFF7E2; */
+    /* border-radius: 18px; */
+    /* width: 30rem; */
+    /* height: 41px; */
+    /* font-size: 16px; */
+    /* font-weight: 400; */
+    /* line-height: 14px; */
+    /* background-color: #DFF7E2; */
+/* } */
 
 .password_text {
     font-size: 20px;
