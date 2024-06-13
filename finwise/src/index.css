@@ -2,14 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-font-synthesis: none;
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
 
 @layer components {
     .signup_button {
@@ -24,6 +17,33 @@ text-rendering: optimizeLegibility;
         margin-top: 10px;
         cursor: pointer;
     }
+
+    .login_button {
+        border-radius: 40px;
+        background-color: #00D09E;
+        padding: 1rem 8rem;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        margin-top: 60px;
+        cursor: pointer;
+    
+    }
+
+    .input { 
+            @apply text-base mb-10 py-6 px-8 font-medium leading-3 bg-input-bg;
+            /* border: 1px solid #DFF7E2; */
+            border-radius: 18px;
+            width: 40rem;
+            height: 41px;
+            /* font-size: 16px; */
+            /* font-weight: 400; */
+            /* line-height: 14px; */
+            /* text-align: ; */
+            /* background-color: #DFF7E2; */
+    }
 }
 
 .border-radius {
@@ -35,24 +55,12 @@ text-rendering: optimizeLegibility;
 }
 
 .border-color {
-    color: #DFF7E2;
+    border: 1px solid #DFF7E2;
 }
 
 .input_width {
     width: 30rem;
 }
 
-.login_button {
-    border-radius: 40px;
-    background-color: #00D09E;
-    padding: 1rem 8rem;
-    align-items: center;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 22px;
-    margin-top: 60px;
-    cursor: pointer;
 
-}
 
